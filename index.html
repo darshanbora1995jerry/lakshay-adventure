@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1504280390367-5f1e9f4c8e2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-3xl font-bold">Lakshay Adventure</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                    <li><a href="#services" class="hover:text-yellow-400">Services</a></li>
+                    <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-96 flex items-center justify-center text-center">
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+            <h2 class="text-4xl font-bold text-white mb-4">Embark on Your Adventure with Lakshay</h2>
+            <p class="text-lg text-white mb-6">Experience thrilling rafting, serene camping, and convenient rentals.</p>
+            <a href="#services" class="bg-yellow-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Rafting -->
+                <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Rafting" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-blue-900">Rafting</h3>
+                        <p class="text-gray-600 mt-2">Navigate thrilling rapids with our expert guides for an adrenaline-pumping experience.</p>
+                        <a href="#" class="text-yellow-400 font-semibold hover:underline mt-4 block">Book Now</a>
+                    </div>
+                </div>
+                <!-- Camping -->
+                <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Camping" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-blue-900">Camping</h3>
+                        <p class="text-gray-600 mt-2">Enjoy nature with our cozy campsites, perfect for a relaxing getaway.</p>
+                        <a href="#" class="text-yellow-400 font-semibold hover:underline mt-4 block">Book Now</a>
+                    </div>
+                </div>
+                <!-- Bike Rental -->
+                <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1506417331742-8648d9951c7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bike Rental" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-blue-900">Bike Rental</h3>
+                        <p class="text-gray-600 mt-2">Explore scenic routes with our high-quality bike rentals for all terrains.</p>
+                        <a href="#" class="text-yellow-400 font-semibold hover:underline mt-4 block">Book Now</a>
+                    </div>
+                </div>
+                <!-- Taxi Rental -->
+                <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Taxi Rental" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-blue-900">Taxi Rental</h3>
+                        <p class="text-gray-600 mt-2">Travel comfortably with our reliable taxi services for all your needs.</p>
+                        <a href="#" class="text-yellow-400 font-semibold hover:underline mt-4 block">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-blue-900 mb-6">About Lakshay Adventure</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">At Lakshay Adventure, we are passionate about creating unforgettable experiences. From thrilling rafting adventures to serene camping under the stars, and convenient bike and taxi rentals, we have everything you need for your next adventure. Join us and explore the beauty of nature!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-lg mb-6">Ready to start your adventure? Contact us today!</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:info@lakshayadventure.com" class="bg-yellow-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500">Email Us</a>
+                <a href="tel:+1234567890" class="bg-yellow-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500">Call Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Lakshay Adventure. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
